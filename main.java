@@ -14,14 +14,15 @@ class main
 		subtract sub = new subtract();
 		division divi = new division();
 
-		int number1, number2;
+		int number1=4, number2=2;
 		Scanner obj = new Scanner(System.in);
 			System.out.println("Enter two numbers:");
-			number1 = obj.nextInt();
-			number2 = obj.nextInt();
+			//number1 = obj.nextInt();
+			//number2 = obj.nextInt();
 			System.out.println("Choose the operation");
 			System.out.println("Enter Addition --> 1, Subtraction --> 2, Division --> 3, Multiplication --> 4");
-			int choice = obj.nextInt();
+			//int choice = obj.nextInt();
+			int choice = 3;
 			if(choice == 1)
 			{
 				int result = addi.addition(number1,number2);
