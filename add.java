@@ -1,3 +1,5 @@
+package xyz;
+
 class add{
 	public static void main(String[] args)
 	{
