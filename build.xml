@@ -5,7 +5,7 @@
    </target>
    <target name = "unittest">
    <junit haltonfailure = "true" printsummary = "true">
-      <test name = "test.test"/>
+      <test name = "Jtest"/>
    </junit>
 </target>
 </project>
