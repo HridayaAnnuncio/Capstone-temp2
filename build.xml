@@ -4,7 +4,7 @@
       <echo>This project runs</echo>
    </target>
    <target name = "unittest">
-   <junit haltonfailure = "true" printsummary = "true">
+   <junit>
       <test name = "Jtest"/>
    </junit>
 </target>
