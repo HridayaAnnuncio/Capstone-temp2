@@ -1,0 +1,6 @@
+<?xml version = "1.0"?>
+<project name = "Capstone-temp2" default = "info">
+   <target name = "info">
+      <echo>This project runs</echo>
+   </target>
+</project>
