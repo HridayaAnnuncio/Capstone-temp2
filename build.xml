@@ -3,4 +3,9 @@
    <target name = "info">
       <echo>This project runs</echo>
    </target>
+   <target name = "unittest">
+   <junit haltonfailure = "true" printsummary = "true">
+      <test name = "test.test"/>
+   </junit>
+</target>
 </project>
